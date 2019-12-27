@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title><Page Title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <script>
+        let simbolo1 = "R$";
+        let simbolo2 = "$";
+        let simbolo3 = "£";
+
+     //   moeda(simbolo3);
+
+        function moeda(simbolo){
+            switch (simbolo) {
+                case "R$":
+                    console.log("Real");
+                    break;
+                case "$":
+                    console.log("Dolar");
+                    break;
+                case "£":
+                    console.log("Libra");
+                    break;
+                default:
+                    console.log("Moeda desconhecida.")
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
